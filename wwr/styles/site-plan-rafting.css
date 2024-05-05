@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@100..900&display=swap');
 
 :root{
-    --primary-color:#653239;
+    --primary-color:#003049;
     --secondary-color:#b79492;
-    --accent-color:#ccc7b9;
+    --accent-color:#fdf0d5;
 
     --heading-font: "Merriweather:ital@1";
     --paragraph-font:Helvetica;
@@ -12,10 +12,10 @@
     --heading-font:#eaf9d9,serif;
     --paragraph-font:#eaf9d9,serif;
 
-    ----nav--background-color:#af7a6d;
-    --nav-link-color:#653239;
-    --nav-hover-link-color:#eaf9d9;
-    --nav-hover-background-color:#af7a6d;
+    ----nav--background-color:#fefae0;
+    --nav-link-color:#003049;
+    --nav-hover-link-color:#bc6c25;
+    --nav-hover-background-color:#fefae0;
 
 }
 body{
