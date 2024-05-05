@@ -3,12 +3,12 @@ nav {
     padding: 10px;
 }
 nav a{
-    color: white;
+    color: #081c15;
     display: block;
     padding: 20px;
 }
 h1{
-    color: steelblue;
+    color: black;
 }
 img{
     width: 150px;
@@ -29,12 +29,12 @@ aside{
     border: 1px solid rgba(0,0,0,0.2);
     padding: 1rem;
     background-color:#faf5f6 ;
-    color:steelblue ;
+    color:black ;
     text-align: center;
 }
 
 aside img{
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 main img{
