@@ -7,17 +7,7 @@
 footer{
     clear:both;
     border-top:1px solid ;
-
 }
-h2{
-    background-color:darkkhaki;
-    padding: 2%;
-}
-header{
-    background: darkkhaki;
-    padding: 2%;
-}
-
 a{
     color: blueviolet;
 }
@@ -30,4 +20,6 @@ section{
 }
 p{
     text-align: justify;
+}
+*{background: antiquewhite;
 }
