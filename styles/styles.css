@@ -69,9 +69,9 @@ footer{
     color: black;
 }
 aside{
-    width: 20em,;
-    text-align: center;
-    position: relative;
+    width: 20em;
+    text-align:center;
+    position:relative;
 }
 aside h2{
     position:absolute;
