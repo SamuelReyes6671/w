@@ -56,8 +56,8 @@ footer{
     text-align: center;
 }
 *{
-    margin: 2px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 /* Class Selectors */
