@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --color-principal: #3498db;
+    --color-fondo: #f9f9f9;
+    --color-texto: #333333;
+    --color-resaltado: #e74c3c;
+}
+
+h1,h2{
+    color: var(--color-principal);
+}
+p{
+    color: var(--color-texto);
+}
+nav.socialLinks a {
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+    color: var(--color-texto);
+}
+body {
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+.hero{
+    position: relative;
+}
+h1,article{
+    position: absolute;
+}
+.hero img{
+    display: block;
+    width: 50%;
+    height: auto;
+}
