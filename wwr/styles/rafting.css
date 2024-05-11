@@ -9,10 +9,6 @@
 }
 
 
-h1,h2{
-    font-family: var(--fuente-titulo);
-    color: var(--color-principal);
-}
 p{
     font-family: var(--fuente-parrafo);
     color: var(--color-texto);
@@ -26,8 +22,8 @@ nav a {
 }
 body{
     max-width: 1200px;
-    margin: 12px;
-    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
     background-color: var(--color-fondo)
 }
 
@@ -35,19 +31,20 @@ body{
     position: relative;
 }
 .hero h1{
-    position: absolute;
-    top: 0;
-    left: 0;
+    position:absolute;
+    top: 20px;
+    left: 135px;
 }
 .hero img{
-    max-width: 600px;
+    max-width:100%;
     height: auto;
+    position: relative;
 }
 .hero article{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: antiquewhite;
+    background-color: wheat;
     padding: 20px;
     width: 300px;
     color: var(--color-texto);
@@ -56,5 +53,9 @@ body{
     color: var(--color-texto);
 }
 .hero article img{
-    float: right;
+    float: left;
+}
+.hero p{
+    text-align: center;
+    position: relative;
 }
