@@ -54,7 +54,8 @@ body{
     color: var(--color-texto);
 }
 .hero article img{
-    float: left;
+    float: right;
+    margin-left: 20px;
 }
 .hero p{
     text-align: center;
