@@ -1,63 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --color-principal: grey;
     --color-fondo: #f9f9f9;
     --color-texto: #333333;
     --color-resaltado: red;
-    --fuente-titulo:"Monserrat",sans serif;
-    --fuente-parrafo:"Monserrat",sans serif;
+    --fuente-titulo: "Montserrat", sans-serif;
+    --fuente-parrafo: "Montserrat", sans-serif;
 }
 
-
-p{
-    font-family: var(--fuente-parrafo);
-    color: var(--color-texto);
-}
-nav.socialLinks a {
-    text-decoration: none;
-}
-nav a {
-    text-decoration: none;
-    color: var(--color-texto);
-}
-body{
+body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: var(--color-fondo)
+    background-color: var(--color-fondo);
+    font-family: var(--fuente-parrafo);
+    color: var(--color-texto);
 }
 
-.hero{
-    position: relative;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
 }
-.hero h1{
-    position:absolute;
+
+header img {
+    max-width: 50px;
+}
+
+nav {
+    text-align: right;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    margin-left: 20px;
+}
+
+.navigation a {
+    color: navy;
+    text-decoration: underline;
+    padding: 10px 0;
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    position: absolute;
     top: 20px;
     left: 20px;
     font-size: 36px;
+    color: var(--color-texto);
 }
-.hero img{
-    max-width:100%;
+
+.hero img {
+    max-width: 100%;
     height: auto;
-    position: relative;
+    display: block;
 }
-.hero article{
+
+.hero article {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    color: var(--color-texto);
-    font-size: 18px;
     background-color: wheat;
     padding: 20px;
-}
-.hero article p{
     color: var(--color-texto);
+    max-width: calc(100% - 40px);
 }
-.hero article img{
+
+.hero article p {
+    margin: 0;
+}
+
+.hero article img {
     float: right;
     margin-left: 20px;
+    max-width: 100px;
 }
-.hero p{
+
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    font-family: var(--fuente-titulo);
+    color: var(--color-principal);
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin: 0.5rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
     text-align: center;
-    position: relative;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .socialLinks a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .socialLinks img {
+    width: 24px;
+    height: 24px;
+}
+
+p {
+    font-family: var(--fuente-parrafo);
+    color: var(--color-texto);
+    line-height: 1.6;
 }
