@@ -1,38 +1,62 @@
-
-* {
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-
-form {
+.container {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 20px auto; /* Centrar el contenedor */
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
-header {
+h1 {
     text-align: center;
     margin-bottom: 20px;
 }
 
+form {
+    max-width: 400px;
+    margin: 0 auto; /* Centrar el formulario dentro del contenedor */
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
 
 input[type="text"],
-input[type="textarea"],
+input[type="number"],
+textarea,
 select {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
 }
 
+select {
+    appearance: none;
+    padding-right: 30px; /* Ajuste para el icono de flecha */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;
+}
 
 button[type="submit"] {
     width: 100%;
@@ -49,9 +73,7 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-
 footer {
     text-align: center;
-    margin-top: 20px;
     color: #666;
 }
