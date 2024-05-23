@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WWD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Conctact Information</legend>
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email</label>
+                <input type="email" id="useremail" name="useremail">
+                
+
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend> Questions </legend>
+                <label for="browser">What is your favorite internet browser? </label>
+                <select name="browser" id="browser">
+                    <option value="chrome">chrome</option>
+                    <option value="firefow">firefow</option>
+                    <option value="safari">safari</option>
+                    <option value="edge">edge</option>
+                    <option value="brave">brave</option>
+                    <option value="other">other</option>
+                </select>
+                
+                <label for="pet">Do you have a household pet ?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                <button type="submit">Submit Poll</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>©️2024 | HTML Form - User Poll Activity | Samuel Reyes </p>
+    </footer>
+</body>
+</html>
