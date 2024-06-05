@@ -29,9 +29,8 @@ a:hover {
 
 /* Encabezado */
 .header {
-    background-color: #fff; /* Blanco */
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa; /* Blanco suave */
+    padding: 10px 0;
 }
 
 .header .container {
@@ -57,72 +56,48 @@ a:hover {
     margin-right: 0;
 }
 
-/* Sección de contacto */
-.contact-section {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.contact-section h1 {
-    color: #1e90ff; /* Azul suave */
-    margin-bottom: 20px;
-}
-
-.contact-section h4 {
+/* Sección de llamado a la acción */
+.cta-section {
+    background-color: #f0f0f0; /* Gris claro */
     color: #333;
-    margin-bottom: 10px;
-}
-
-.contact-section p {
-    margin-bottom: 10px;
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.small-image {
-    width: 100px;
-    height: 100px;
-    margin: 0 10px;
-    border-radius: 50%;
-}
-
-/* Sección de formulario */
-.form-section {
+    padding: 50px 0;
     text-align: center;
-    margin-top: 50px;
 }
 
-.form-section h2 {
-    color: #1e90ff; /* Azul suave */
+.cta-section h2 {
+    font-size: 36px;
     margin-bottom: 20px;
 }
 
-form input,
-form textarea {
-    width: 100%;
-    max-width: 400px;
+/* Sección de descripción de viajes */
+.trip-description {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.trip {
+    flex: 0 1 calc(33.33% - 20px);
     margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
+    background-color: #fff; /* Blanco */
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
-.radio-group {
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.radio-option {
+.trip img {
+    max-width: 100%;
     margin-bottom: 10px;
 }
 
-.checkbox {
-    text-align: left;
-    margin-bottom: 20px;
+.trip h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.trip p {
+    font-size: 16px;
 }
 
 /* Pie de página */
